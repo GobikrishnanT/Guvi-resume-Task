@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+    width: 12%;
+    height: 8vh;
+    background-color: darkslategrey;
+    border: 5px dotted orange;
+}
+table{
+    width: 100%;
+    padding: 8px;
+}  
+td{
+    width: 50%;
+}
+
+
+
+.mainDivision{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child1{
+    width: 80%;
+    height: 25vh;
+    background-color: darkslategray;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.child1 img{
+    border-radius: 75px;
+    border: 5px dotted yellow;
+    position: relative;
+    left: 42%;
+    top: 5vh;
+}
+.namTag{
+    text-align: center;
+    width: 25%;
+    height: 7vh;
+    position: absolute;
+    background-color: yellow;
+    margin: 2px;
+    border-radius: 10px;
+    top: 23vh;
+    right: 73vh;
+   
+}
+.child2{
+    width: 80%;
+    height: 5vh;
+    background-color: darkslategray;
+    margin: 10px;
+    border-radius: 5px;
+}
+.mainContent_Cls{
+    width: 80%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+.leftContent_Cls{
+    width: 50%;
+}
+.rigthtContent_Cls{
+    width: 50%;
+}
+
+.headinSec_Pro{
+    display: flex;
+    flex-direction: row;
+    
+    
+ }
+ .headinSec_Pro h2{
+     margin: 7px;
+ }
+
+
+
+
+.profileBox_Cls{
+    margin: 10px;
+}
+.profileBox_Cls .headinSec_Pro h2{
+    margin: 5px;
+}
+
+
+.skillBox_Cls{
+    margin: 10px;
+}
+.skillBox_Cls .headinSec_Pro h2{
+    margin: 8px;
+}
+
+
+
+
+.workExpBox_Cls{
+    margin: 10px;
+}
+.workExpBox_Cls .headinSec_Pro h2{
+    margin: 10px;
+}
+
+.workExpBox_Cls ul{
+    padding: 13px;
+}
+.workExpBox_Cls li{
+    margin: 4px;
+}
+.titleBox_wrkExp1 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    margin: 2px;
+}
+
+
+
+
+/*Rigth*/
+
+.workExpBox2_Cls{
+    margin: 10px;
+}
+.workExpBox2_Cls .headinSec_Pro h2{
+    margin: 10px;
+}
+.workExpBox2_Cls ul{
+    padding: 13px;
+}
+.workExpBox2_Cls li{
+    margin: 4px;
+}
+.titleBox_wrkExp2 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    margin: 2px;
+}
+
+
+
+
+.educationBox_Cls{
+    margin: 10px;
+    position: relative;
+}
+
+.educationBox_Cls .headinSec_Pro h2{
+    margin: 10px;
+}
+.educationBox_Cls ul{
+    padding: 13px;
+}
+.educationBox_Cls li{
+    margin: 4px;
+}
+.titleBox_Education{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+

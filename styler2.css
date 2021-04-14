@@ -1,0 +1,33 @@
+
+.outerBox_cls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider_Cls{
+    -webkit-appearance: none;
+     width: 90%;
+     height: 2vh;
+     border: none;
+     border-radius: 8px;
+     background:linear-gradient(90deg ,orange 60%, rgb(245, 236, 221) 60%);
+     outline-style: none;
+    
+}
+
+.slider_Cls::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: whitesmoke;
+    width: 8%;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(49, 32, 1);
+}
+.outerBox_cls{
+    position: relative;
+}
+
+
+
+
